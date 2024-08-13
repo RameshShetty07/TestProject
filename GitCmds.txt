@@ -1,0 +1,41 @@
+git config --global user.email "mail@gmail.com"  --> to add email
+git config --global user.name "name"  --> to add name
+git init --> it will create an hidden .git folder 
+git status --> to check the status or recent changes
+git add filename --> ready to commit
+git commit -m"abc....." --> to commit changes
+
+
+git remote add origin URL --> to add origin in remote
+git remote show origin --> to display added origin
+git push -u origin master --> to push into remote repo
+git log --> to get all the commit history
+git help --> help 
+git branch brName -> to add branch
+git branch -> to check all the branchs
+git checkout branchName --> to switch the control to the branch we req
+git merge test --> In order to merge the code from the test branch into the master branch
+git branch -d branchName --> to delete branch from local, but it will be availabile in remote
+git push origin --delete "branchName" --> to delete from remote
+
+
+git tag -> to check all the tags
+git tag tagName -> to create a new tag
+git tag show tagNmae -> to get particular tag
+git tag -d V1.0 -> to delete from local
+git push origin -d v1.0 -> to delete from remote
+git restore file_Nmae -> to restore the file
+
+
+
+To generate Access Token
+1. Login to your GitHub account
+2. Verify your email address, if it hasn't been verified yet.
+3. In the upper-right corner of any page, click your profile photo, then click Settings.
+4. In the left sidebar, click Developer settings.
+5. In the left sidebar, click Personal access tokens.
+6. Click Generate new token.
+7. Give your token a descriptive name.
+8. To give your token an expiration, select the Expiration drop-down menu, then click a default or use the calendar picker
+9. Select the scopes or permissions, you'd like to grant this token. To use your token to access repositories from the command line, select repo.
+10. Click Generate token
