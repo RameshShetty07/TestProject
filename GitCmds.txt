@@ -17,6 +17,7 @@ git checkout branchName --> to switch the control to the branch we req
 git merge test --> In order to merge the code from the test branch into the master branch
 git branch -d branchName --> to delete branch from local, but it will be availabile in remote
 git push origin --delete "branchName" --> to delete from remote
+git rm -- cached fileName --> to delete a paticulare file from git
 
 
 git tag -> to check all the tags
