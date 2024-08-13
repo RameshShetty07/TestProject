@@ -24,8 +24,11 @@ git tag -> to check all the tags
 git tag tagName -> to create a new tag
 git tag show tagNmae -> to get particular tag
 git tag -d V1.0 -> to delete from local
+git push origin  v1.0 -> to push into remote repo
 git push origin -d v1.0 -> to delete from remote
 git restore file_Nmae -> to restore the file
+
+git
 
 
 
